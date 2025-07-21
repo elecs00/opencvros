@@ -1,0 +1,78 @@
+{
+  "headless": {
+  "enable_yolo": false,
+  "enable_dlib": false,
+  "enable_mediapipe": true,
+  "enable_openvino": false,
+  "socket_enabled": true,
+  "socket_ip": "127.0.0.1",
+  "socket_port": 5001,
+  "source": 0
+  },
+  "dlib": {
+    "eye_ar_thresh": 0.18,
+    "eye_ar_consec_frames": 10,
+    "eye_open_consec_frames": 5,
+    "mouth_ar_thresh": 0.4,
+    "mouth_ar_consec_frames": 30,
+    "pitch_threshold": 12.0,
+    "yaw_threshold": 40.0,
+    "roll_threshold": 90.0,
+    "pitch_down_threshold": 8.0,
+    "distraction_consec_frames": 15,
+    "face_position_threshold": 0.5,
+    "face_size_threshold": 0.7,
+    "enable_face_position_filtering": true
+  },
+  "mediapipe": {
+    "eye_blink_threshold": 0.35,
+    "eye_blink_threshold_head_up": 0.40,
+    "eye_blink_threshold_head_down": 0.40,
+    "head_up_threshold_for_eye": -10.0,
+    "head_down_threshold_for_eye": 8.0,
+    "jaw_open_threshold": 0.3,
+    "drowsy_consec_frames": 15,
+    "yawn_consec_frames": 15,
+    "pitch_down_threshold": 10,
+    "pitch_up_threshold": -60,
+    "pose_consec_frames": 20,
+    "gaze_vector_threshold": 0.5,
+    "mp_yaw_threshold": 40.0,
+    "mp_pitch_threshold": 30.0,
+    "mp_roll_threshold": 999.0,
+    "gaze_threshold": 0.5,
+    "distraction_consec_frames": 20,
+    "true_pitch_threshold": 12.0,
+    "head_rotation_threshold_for_gaze": 15.0,
+    "use_video_mode": true,
+    "min_hand_detection_confidence": 0.3,
+    "min_hand_presence_confidence": 0.3,
+    "hand_off_consec_frames": 5,
+    "hand_size_ratio_threshold": 0.85,
+    "enable_hand_size_filtering": true,
+    "face_position_threshold": 0.3,
+    "face_size_threshold": 0.5,
+    "enable_face_position_filtering": true,
+    "face_roi_scale": 1.0,
+    "enable_pupil_gaze_detection": true,
+    "pupil_gaze_threshold": 0.15,
+    "pupil_gaze_consec_frames": 10,
+    "wakeup_frame_threshold": 30,
+    "distracted_frame_threshold": 60
+  },
+  "3ddfa": {
+    "eye_ar_thresh": 0.22,
+    "mouth_ar_thresh": 0.6
+  },
+  "yolo": {
+    "default_conf_thres": 0.25,
+    "default_iou_thres": 0.45,
+    "default_max_det": 1000
+  },
+  "general": {
+    "fps_display": true,
+    "debug_mode": false,
+    "target_fps": 20.0
+  }
+} 
+ 

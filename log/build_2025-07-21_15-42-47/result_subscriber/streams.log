@@ -1,0 +1,72 @@
+[0.278s] Invoking command in '/home/hkit/Downloads/test/mediapipe_only/build/result_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hkit/ros2_ws/install/ros_study_py:/home/hkit/ros2_ws/install/ex_calculator_py:/home/hkit/ros2_ws/install/opencv_py:/home/hkit/ros2_ws/install/hangman_game:/opt/ros/humble /usr/bin/cmake /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/src/result_subscriber -DCMAKE_INSTALL_PREFIX=/home/hkit/Downloads/test/mediapipe_only/install/result_subscriber
+[0.376s] -- The C compiler identification is GNU 11.4.0
+[0.460s] -- The CXX compiler identification is GNU 11.4.0
+[0.473s] -- Detecting C compiler ABI info
+[0.638s] -- Detecting C compiler ABI info - done
+[0.648s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.649s] -- Detecting C compile features
+[0.649s] -- Detecting C compile features - done
+[0.652s] -- Detecting CXX compiler ABI info
+[0.781s] -- Detecting CXX compiler ABI info - done
+[0.789s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.789s] -- Detecting CXX compile features
+[0.789s] -- Detecting CXX compile features - done
+[0.793s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.237s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.361s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.421s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.429s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.445s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.461s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.486s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.546s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.549s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.694s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.735s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.783s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.795s] -- Looking for pthread.h
+[1.926s] -- Looking for pthread.h - found
+[1.927s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.049s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.050s] -- Found Threads: TRUE  
+[2.115s] -- Found nlohmann_json: /usr/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.10.5") 
+[2.120s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.153s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[2.167s] -- Found OpenCV: /usr (found version "4.5.4") 
+[2.169s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.268s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.268s] -- Configured cppcheck include dirs: 
+[2.268s] -- Configured cppcheck exclude dirs and/or files: 
+[2.269s] -- Added test 'lint_cmake' to check CMake code style
+[2.270s] -- Added test 'uncrustify' to check C / C++ code style
+[2.270s] -- Configured uncrustify additional arguments: 
+[2.270s] -- Added test 'xmllint' to check XML markup files
+[2.274s] -- Configuring done
+[2.287s] -- Generating done
+[2.291s] -- Build files have been written to: /home/hkit/Downloads/test/mediapipe_only/build/result_subscriber
+[2.301s] Invoked command in '/home/hkit/Downloads/test/mediapipe_only/build/result_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hkit/ros2_ws/install/ros_study_py:/home/hkit/ros2_ws/install/ex_calculator_py:/home/hkit/ros2_ws/install/opencv_py:/home/hkit/ros2_ws/install/hangman_game:/opt/ros/humble /usr/bin/cmake /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/src/result_subscriber -DCMAKE_INSTALL_PREFIX=/home/hkit/Downloads/test/mediapipe_only/install/result_subscriber
+[2.304s] Invoking command in '/home/hkit/Downloads/test/mediapipe_only/build/result_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hkit/ros2_ws/install/ros_study_py:/home/hkit/ros2_ws/install/ex_calculator_py:/home/hkit/ros2_ws/install/opencv_py:/home/hkit/ros2_ws/install/hangman_game:/opt/ros/humble /usr/bin/cmake --build /home/hkit/Downloads/test/mediapipe_only/build/result_subscriber -- -j8 -l8
+[2.399s] [ 50%] [32mBuilding CXX object CMakeFiles/result_subscriber_node.dir/src/result_subscriber_node.cpp.o[0m
+[11.596s] [100%] [32m[1mLinking CXX executable result_subscriber_node[0m
+[12.462s] [100%] Built target result_subscriber_node
+[12.478s] Invoked command in '/home/hkit/Downloads/test/mediapipe_only/build/result_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hkit/ros2_ws/install/ros_study_py:/home/hkit/ros2_ws/install/ex_calculator_py:/home/hkit/ros2_ws/install/opencv_py:/home/hkit/ros2_ws/install/hangman_game:/opt/ros/humble /usr/bin/cmake --build /home/hkit/Downloads/test/mediapipe_only/build/result_subscriber -- -j8 -l8
+[12.494s] Invoking command in '/home/hkit/Downloads/test/mediapipe_only/build/result_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hkit/ros2_ws/install/ros_study_py:/home/hkit/ros2_ws/install/ex_calculator_py:/home/hkit/ros2_ws/install/opencv_py:/home/hkit/ros2_ws/install/hangman_game:/opt/ros/humble /usr/bin/cmake --install /home/hkit/Downloads/test/mediapipe_only/build/result_subscriber
+[12.505s] -- Install configuration: ""
+[12.505s] -- Installing: /home/hkit/Downloads/test/mediapipe_only/install/result_subscriber/share/ament_index/resource_index/package_run_dependencies/result_subscriber
+[12.506s] -- Installing: /home/hkit/Downloads/test/mediapipe_only/install/result_subscriber/share/ament_index/resource_index/parent_prefix_path/result_subscriber
+[12.506s] -- Installing: /home/hkit/Downloads/test/mediapipe_only/install/result_subscriber/share/result_subscriber/environment/ament_prefix_path.sh
+[12.506s] -- Installing: /home/hkit/Downloads/test/mediapipe_only/install/result_subscriber/share/result_subscriber/environment/ament_prefix_path.dsv
+[12.506s] -- Installing: /home/hkit/Downloads/test/mediapipe_only/install/result_subscriber/share/result_subscriber/environment/path.sh
+[12.506s] -- Installing: /home/hkit/Downloads/test/mediapipe_only/install/result_subscriber/share/result_subscriber/environment/path.dsv
+[12.506s] -- Installing: /home/hkit/Downloads/test/mediapipe_only/install/result_subscriber/share/result_subscriber/local_setup.bash
+[12.507s] -- Installing: /home/hkit/Downloads/test/mediapipe_only/install/result_subscriber/share/result_subscriber/local_setup.sh
+[12.507s] -- Installing: /home/hkit/Downloads/test/mediapipe_only/install/result_subscriber/share/result_subscriber/local_setup.zsh
+[12.507s] -- Installing: /home/hkit/Downloads/test/mediapipe_only/install/result_subscriber/share/result_subscriber/local_setup.dsv
+[12.507s] -- Installing: /home/hkit/Downloads/test/mediapipe_only/install/result_subscriber/share/result_subscriber/package.dsv
+[12.507s] -- Installing: /home/hkit/Downloads/test/mediapipe_only/install/result_subscriber/share/ament_index/resource_index/packages/result_subscriber
+[12.508s] -- Installing: /home/hkit/Downloads/test/mediapipe_only/install/result_subscriber/share/result_subscriber/cmake/result_subscriberConfig.cmake
+[12.508s] -- Installing: /home/hkit/Downloads/test/mediapipe_only/install/result_subscriber/share/result_subscriber/cmake/result_subscriberConfig-version.cmake
+[12.508s] -- Installing: /home/hkit/Downloads/test/mediapipe_only/install/result_subscriber/share/result_subscriber/package.xml
+[12.508s] -- Installing: /home/hkit/Downloads/test/mediapipe_only/install/result_subscriber/lib/result_subscriber/result_subscriber_node
+[12.512s] -- Set runtime path of "/home/hkit/Downloads/test/mediapipe_only/install/result_subscriber/lib/result_subscriber/result_subscriber_node" to ""
+[12.514s] Invoked command in '/home/hkit/Downloads/test/mediapipe_only/build/result_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hkit/ros2_ws/install/ros_study_py:/home/hkit/ros2_ws/install/ex_calculator_py:/home/hkit/ros2_ws/install/opencv_py:/home/hkit/ros2_ws/install/hangman_game:/opt/ros/humble /usr/bin/cmake --install /home/hkit/Downloads/test/mediapipe_only/build/result_subscriber

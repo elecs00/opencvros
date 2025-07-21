@@ -1,0 +1,2 @@
+[console_scripts]
+result_publisher = result_publisher.publisher_node:main

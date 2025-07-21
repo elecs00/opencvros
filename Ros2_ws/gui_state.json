@@ -1,0 +1,20 @@
+{
+    "window_geometry": {
+        "x": 100,
+        "y": 100,
+        "width": 1005,
+        "height": 745
+    },
+    "enable_mediapipe": true,
+    "enable_mediapipe_hand": true,
+    "enable_mediapipe_distracted": true,
+    "source": "0",
+    "weights": "/home/hkit/Downloads/test/mediapipe_only/weights/last.pt",
+    "enable_ros2_sending": true,
+    "is_set_mediapipe_front_face_mode": true,
+    "is_calibration_mode": false,
+    "video_rotation": 0,
+    "aspect_ratio": 0,
+    "crop_offset": "0",
+    "playback_speed": 0
+}

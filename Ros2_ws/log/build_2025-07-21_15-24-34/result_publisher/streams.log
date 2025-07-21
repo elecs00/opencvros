@@ -1,0 +1,29 @@
+[0.873s] Invoking command in '/home/hkit/Downloads/test/mediapipe_only/Ros2_ws/src/result_publisher': PYTHONPATH=/home/hkit/Downloads/test/mediapipe_only/Ros2_ws/build/result_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hkit/Downloads/test/mediapipe_only/Ros2_ws/install/result_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/result_publisher build --build-base /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/build/result_publisher/build install --record /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/build/result_publisher/install.log --single-version-externally-managed install_data
+[1.069s] /home/hkit/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.069s]   warnings.warn(msg)
+[1.217s] running egg_info
+[1.246s] writing ../../build/result_publisher/result_publisher.egg-info/PKG-INFO
+[1.247s] writing dependency_links to ../../build/result_publisher/result_publisher.egg-info/dependency_links.txt
+[1.247s] writing entry points to ../../build/result_publisher/result_publisher.egg-info/entry_points.txt
+[1.247s] writing requirements to ../../build/result_publisher/result_publisher.egg-info/requires.txt
+[1.247s] writing top-level names to ../../build/result_publisher/result_publisher.egg-info/top_level.txt
+[1.292s] reading manifest file '../../build/result_publisher/result_publisher.egg-info/SOURCES.txt'
+[1.294s] writing manifest file '../../build/result_publisher/result_publisher.egg-info/SOURCES.txt'
+[1.294s] running build
+[1.294s] running build_py
+[1.294s] copying result_publisher/__init__.py -> /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/build/result_publisher/build/lib/result_publisher
+[1.294s] copying result_publisher/publisher_node.py -> /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/build/result_publisher/build/lib/result_publisher
+[1.294s] running install
+[1.299s] running install_lib
+[1.324s] copying /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/build/result_publisher/build/lib/result_publisher/publisher_node.py -> /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/install/result_publisher/lib/python3.10/site-packages/result_publisher
+[1.325s] byte-compiling /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/install/result_publisher/lib/python3.10/site-packages/result_publisher/publisher_node.py to publisher_node.cpython-310.pyc
+[1.328s] running install_data
+[1.328s] copying resource/result_publisher -> /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/install/result_publisher/share/ament_index/resource_index/packages
+[1.329s] copying package.xml -> /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/install/result_publisher/share/result_publisher
+[1.329s] running install_egg_info
+[1.353s] removing '/home/hkit/Downloads/test/mediapipe_only/Ros2_ws/install/result_publisher/lib/python3.10/site-packages/result_publisher-0.0.0-py3.10.egg-info' (and everything under it)
+[1.354s] Copying ../../build/result_publisher/result_publisher.egg-info to /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/install/result_publisher/lib/python3.10/site-packages/result_publisher-0.0.0-py3.10.egg-info
+[1.355s] running install_scripts
+[1.399s] Installing result_publisher script to /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/install/result_publisher/lib/result_publisher
+[1.400s] writing list of installed files to '/home/hkit/Downloads/test/mediapipe_only/Ros2_ws/build/result_publisher/install.log'
+[1.436s] Invoked command in '/home/hkit/Downloads/test/mediapipe_only/Ros2_ws/src/result_publisher' returned '0': PYTHONPATH=/home/hkit/Downloads/test/mediapipe_only/Ros2_ws/build/result_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hkit/Downloads/test/mediapipe_only/Ros2_ws/install/result_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/result_publisher build --build-base /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/build/result_publisher/build install --record /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/build/result_publisher/install.log --single-version-externally-managed install_data

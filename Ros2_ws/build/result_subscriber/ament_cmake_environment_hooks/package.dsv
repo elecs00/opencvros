@@ -1,0 +1,4 @@
+source;share/result_subscriber/local_setup.bash
+source;share/result_subscriber/local_setup.dsv
+source;share/result_subscriber/local_setup.sh
+source;share/result_subscriber/local_setup.zsh

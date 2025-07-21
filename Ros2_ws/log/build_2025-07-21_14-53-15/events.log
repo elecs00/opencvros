@@ -1,0 +1,286 @@
+[0.000000] (-) TimerEvent: {}
+[0.000805] (result_publisher) JobQueued: {'identifier': 'result_publisher', 'dependencies': OrderedDict()}
+[0.000878] (result_subscriber) JobQueued: {'identifier': 'result_subscriber', 'dependencies': OrderedDict()}
+[0.000902] (result_publisher) JobStarted: {'identifier': 'result_publisher'}
+[0.015493] (result_subscriber) JobStarted: {'identifier': 'result_subscriber'}
+[0.098773] (-) TimerEvent: {}
+[0.199339] (-) TimerEvent: {}
+[0.300733] (-) TimerEvent: {}
+[0.401138] (-) TimerEvent: {}
+[0.458991] (result_subscriber) JobProgress: {'identifier': 'result_subscriber', 'progress': 'cmake'}
+[0.462406] (result_subscriber) Command: {'cmd': ['/usr/bin/cmake', '/home/hkit/Downloads/test/mediapipe_only/Ros2_ws/src/result_subscriber', '-DCMAKE_INSTALL_PREFIX=/home/hkit/Downloads/test/mediapipe_only/Ros2_ws/install/result_subscriber'], 'cwd': '/home/hkit/Downloads/test/mediapipe_only/Ros2_ws/build/result_subscriber', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'hkit'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/tmp/.mount_Cursorl3oo7r/usr/share/cursor/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hkit/ros2_ws/install/ros_study_msgs/lib:/home/hkit/ros2_ws/install/hangman_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_Cursorl3oo7r/usr/lib/:/tmp/.mount_Cursorl3oo7r/usr/lib32/:/tmp/.mount_Cursorl3oo7r/usr/lib64/:/tmp/.mount_Cursorl3oo7r/lib/:/tmp/.mount_Cursorl3oo7r/lib/i386-linux-gnu/:/tmp/.mount_Cursorl3oo7r/lib/x86_64-linux-gnu/:/tmp/.mount_Cursorl3oo7r/lib/aarch64-linux-gnu/:/tmp/.mount_Cursorl3oo7r/lib32/:/tmp/.mount_Cursorl3oo7r/lib64/:'), ('HOME', '/home/hkit'), ('CHROME_DESKTOP', 'cursor.desktop'), ('APPDIR', '/tmp/.mount_Cursorl3oo7r'), ('OLDPWD', '/home/hkit/Downloads/test/mediapipe_only'), ('DISABLE_AUTO_UPDATE', 'true'), ('TERM_PROGRAM_VERSION', '1.2.2'), ('DESKTOP_SESSION', 'ubuntu'), ('PERLLIB', '/tmp/.mount_Cursorl3oo7r/usr/share/perl5/:/tmp/.mount_Cursorl3oo7r/usr/lib/perl5/:'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'head -n 10000 | cat'), ('VSCODE_GIT_ASKPASS_MAIN', '/tmp/.mount_Cursorl3oo7r/usr/share/cursor/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/tmp/.mount_Cursorl3oo7r/usr/share/cursor/cursor'), ('MANAGERPID', '1551'), ('npm_config_yes', 'true'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1693'), ('BUNDLED_DEBUGPY_PATH', '/home/hkit/.cursor/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8ebd92d23c39d624cdb63808687d9095'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '659444'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hkit/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hkit'), ('OWD', '/home/hkit/Downloads'), ('JOURNAL_STREAM', '8:12545'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hkit'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('COMPOSER_NO_INTERACTION', '1'), ('PERPLEXITY_API_KEY', 'your-api-key-here'), ('PATH', '/home/hkit/.local/bin:/home/hkit/.local/bin:/opt/ros/humble/bin:/tmp/.mount_Cursorl3oo7r/usr/bin/:/tmp/.mount_Cursorl3oo7r/usr/sbin/:/tmp/.mount_Cursorl3oo7r/usr/games/:/tmp/.mount_Cursorl3oo7r/bin/:/tmp/.mount_Cursorl3oo7r/sbin/:/home/hkit/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hkit/.cursor/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/hkit-To-be-filled-by-O-E-M:@/tmp/.ICE-unix/1693,unix/hkit-To-be-filled-by-O-E-M:/tmp/.ICE-unix/1693'), ('INVOCATION_ID', 'e08ac2d7b5ce405a835081590d328aff'), ('PAPERSIZE', 'a4'), ('APPIMAGE', '/home/hkit/Downloads/Cursor-1.2.2-x86_64.AppImage.zs-old'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/hkit/.cursor/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e63379b47a09148c.txt'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5DW192'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f11f2e3a12.sock'), ('TERM_PROGRAM', 'vscode'), ('CURSOR_TRACE_ID', '835c4a8dba9e4e36a92a7a73d597230f'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/tmp/.mount_Cursorl3oo7r/usr/share/glib-2.0/schemas/:'), ('AMENT_PREFIX_PATH', '/home/hkit/ros2_ws/install/ros_study_py:/home/hkit/ros2_ws/install/ros_study_cpp:/home/hkit/ros2_ws/install/ex_calculator_py:/home/hkit/ros2_ws/install/ex_calculator_cpp:/home/hkit/ros2_ws/install/ros_study_msgs:/home/hkit/ros2_ws/install/opencv_py:/home/hkit/ros2_ws/install/hangman_game_cpp:/home/hkit/ros2_ws/install/hangman_game:/home/hkit/ros2_ws/install/hangman_interface:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('ARGV0', '/home/hkit/Downloads/Cursor-1.2.2-x86_64.AppImage.zs-old'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hkit/Downloads/test/mediapipe_only/Ros2_ws/build/result_subscriber'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8ebd92d23c39d624cdb63808687d9095'), ('XDG_DATA_DIRS', '/tmp/.mount_Cursorl3oo7r/usr/share/:/usr/local/share:/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hkit/ros2_ws/install/ros_study_py/lib/python3.10/site-packages:/home/hkit/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages:/home/hkit/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages:/home/hkit/ros2_ws/install/opencv_py/lib/python3.10/site-packages:/home/hkit/ros2_ws/install/hangman_game/lib/python3.10/site-packages:/home/hkit/ros2_ws/install/hangman_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('QT_PLUGIN_PATH', '/tmp/.mount_Cursorl3oo7r/usr/lib/qt4/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib/i386-linux-gnu/qt4/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib/x86_64-linux-gnu/qt4/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib/aarch64-linux-gnu/qt4/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib32/qt4/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib64/qt4/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib/qt5/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib/i386-linux-gnu/qt5/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib/x86_64-linux-gnu/qt5/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib/aarch64-linux-gnu/qt5/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib32/qt5/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib64/qt5/plugins/:'), ('COLCON', '1'), ('PIP_NO_INPUT', 'true'), ('CMAKE_PREFIX_PATH', '/home/hkit/ros2_ws/install/ros_study_cpp:/home/hkit/ros2_ws/install/ex_calculator_cpp:/home/hkit/ros2_ws/install/ros_study_msgs:/home/hkit/ros2_ws/install/hangman_game_cpp:/home/hkit/ros2_ws/install/hangman_interface:/home/hkit/ros2_ws/install/ros_study_py:/home/hkit/ros2_ws/install/ex_calculator_py:/home/hkit/ros2_ws/install/opencv_py:/home/hkit/ros2_ws/install/hangman_game:/opt/ros/humble')]), 'shell': False}
+[0.501300] (-) TimerEvent: {}
+[0.602118] (-) TimerEvent: {}
+[0.702610] (-) TimerEvent: {}
+[0.709788] (result_subscriber) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.802780] (-) TimerEvent: {}
+[0.849917] (result_subscriber) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.875454] (result_subscriber) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.902993] (-) TimerEvent: {}
+[1.003727] (-) TimerEvent: {}
+[1.037770] (result_subscriber) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.047478] (result_subscriber) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.047986] (result_subscriber) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.048551] (result_subscriber) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.053705] (result_subscriber) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.103994] (-) TimerEvent: {}
+[1.204708] (-) TimerEvent: {}
+[1.242512] (result_subscriber) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.253974] (result_subscriber) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.254909] (result_subscriber) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.255401] (result_subscriber) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.280289] (result_subscriber) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.282069] (result_publisher) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/result_publisher', 'build', '--build-base', '/home/hkit/Downloads/test/mediapipe_only/Ros2_ws/build/result_publisher/build', 'install', '--record', '/home/hkit/Downloads/test/mediapipe_only/Ros2_ws/build/result_publisher/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/hkit/Downloads/test/mediapipe_only/Ros2_ws/src/result_publisher', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ko:en', 'USER': 'hkit', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/tmp/.mount_Cursorl3oo7r/usr/share/cursor/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/hkit/ros2_ws/install/ros_study_msgs/lib:/home/hkit/ros2_ws/install/hangman_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_Cursorl3oo7r/usr/lib/:/tmp/.mount_Cursorl3oo7r/usr/lib32/:/tmp/.mount_Cursorl3oo7r/usr/lib64/:/tmp/.mount_Cursorl3oo7r/lib/:/tmp/.mount_Cursorl3oo7r/lib/i386-linux-gnu/:/tmp/.mount_Cursorl3oo7r/lib/x86_64-linux-gnu/:/tmp/.mount_Cursorl3oo7r/lib/aarch64-linux-gnu/:/tmp/.mount_Cursorl3oo7r/lib32/:/tmp/.mount_Cursorl3oo7r/lib64/:', 'HOME': '/home/hkit', 'CHROME_DESKTOP': 'cursor.desktop', 'APPDIR': '/tmp/.mount_Cursorl3oo7r', 'OLDPWD': '/home/hkit/Downloads/test/mediapipe_only', 'DISABLE_AUTO_UPDATE': 'true', 'TERM_PROGRAM_VERSION': '1.2.2', 'DESKTOP_SESSION': 'ubuntu', 'PERLLIB': '/tmp/.mount_Cursorl3oo7r/usr/share/perl5/:/tmp/.mount_Cursorl3oo7r/usr/lib/perl5/:', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'head -n 10000 | cat', 'VSCODE_GIT_ASKPASS_MAIN': '/tmp/.mount_Cursorl3oo7r/usr/share/cursor/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ko_KR.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/tmp/.mount_Cursorl3oo7r/usr/share/cursor/cursor', 'MANAGERPID': '1551', 'npm_config_yes': 'true', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1693', 'BUNDLED_DEBUGPY_PATH': '/home/hkit/.cursor/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=8ebd92d23c39d624cdb63808687d9095', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '659444', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hkit/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'hkit', 'OWD': '/home/hkit/Downloads', 'JOURNAL_STREAM': '8:12545', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hkit', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'COMPOSER_NO_INTERACTION': '1', 'PERPLEXITY_API_KEY': 'your-api-key-here', 'PATH': '/home/hkit/.local/bin:/home/hkit/.local/bin:/opt/ros/humble/bin:/tmp/.mount_Cursorl3oo7r/usr/bin/:/tmp/.mount_Cursorl3oo7r/usr/sbin/:/tmp/.mount_Cursorl3oo7r/usr/games/:/tmp/.mount_Cursorl3oo7r/bin/:/tmp/.mount_Cursorl3oo7r/sbin/:/home/hkit/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hkit/.cursor/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/hkit-To-be-filled-by-O-E-M:@/tmp/.ICE-unix/1693,unix/hkit-To-be-filled-by-O-E-M:/tmp/.ICE-unix/1693', 'INVOCATION_ID': 'e08ac2d7b5ce405a835081590d328aff', 'PAPERSIZE': 'a4', 'APPIMAGE': '/home/hkit/Downloads/Cursor-1.2.2-x86_64.AppImage.zs-old', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/hkit/.cursor/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e63379b47a09148c.txt', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.5DW192', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-f11f2e3a12.sock', 'TERM_PROGRAM': 'vscode', 'CURSOR_TRACE_ID': '835c4a8dba9e4e36a92a7a73d597230f', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/tmp/.mount_Cursorl3oo7r/usr/share/glib-2.0/schemas/:', 'AMENT_PREFIX_PATH': '/home/hkit/ros2_ws/install/ros_study_py:/home/hkit/ros2_ws/install/ros_study_cpp:/home/hkit/ros2_ws/install/ex_calculator_py:/home/hkit/ros2_ws/install/ex_calculator_cpp:/home/hkit/ros2_ws/install/ros_study_msgs:/home/hkit/ros2_ws/install/opencv_py:/home/hkit/ros2_ws/install/hangman_game_cpp:/home/hkit/ros2_ws/install/hangman_game:/home/hkit/ros2_ws/install/hangman_interface:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'ARGV0': '/home/hkit/Downloads/Cursor-1.2.2-x86_64.AppImage.zs-old', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hkit/Downloads/test/mediapipe_only/Ros2_ws/build/result_publisher', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=8ebd92d23c39d624cdb63808687d9095', 'XDG_DATA_DIRS': '/tmp/.mount_Cursorl3oo7r/usr/share/:/usr/local/share:/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hkit/Downloads/test/mediapipe_only/Ros2_ws/build/result_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hkit/Downloads/test/mediapipe_only/Ros2_ws/install/result_publisher/lib/python3.10/site-packages:/home/hkit/ros2_ws/install/ros_study_py/lib/python3.10/site-packages:/home/hkit/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages:/home/hkit/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages:/home/hkit/ros2_ws/install/opencv_py/lib/python3.10/site-packages:/home/hkit/ros2_ws/install/hangman_game/lib/python3.10/site-packages:/home/hkit/ros2_ws/install/hangman_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'QT_PLUGIN_PATH': '/tmp/.mount_Cursorl3oo7r/usr/lib/qt4/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib/i386-linux-gnu/qt4/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib/x86_64-linux-gnu/qt4/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib/aarch64-linux-gnu/qt4/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib32/qt4/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib64/qt4/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib/qt5/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib/i386-linux-gnu/qt5/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib/x86_64-linux-gnu/qt5/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib/aarch64-linux-gnu/qt5/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib32/qt5/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib64/qt5/plugins/:', 'COLCON': '1', 'PIP_NO_INPUT': 'true', 'CMAKE_PREFIX_PATH': '/home/hkit/ros2_ws/install/ros_study_cpp:/home/hkit/ros2_ws/install/ex_calculator_cpp:/home/hkit/ros2_ws/install/ros_study_msgs:/home/hkit/ros2_ws/install/hangman_game_cpp:/home/hkit/ros2_ws/install/hangman_interface'}, 'shell': False}
+[1.304806] (-) TimerEvent: {}
+[1.405385] (-) TimerEvent: {}
+[1.505671] (-) TimerEvent: {}
+[1.529688] (result_publisher) StderrLine: {'line': b"/home/hkit/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[1.530020] (result_publisher) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[1.605762] (-) TimerEvent: {}
+[1.706012] (-) TimerEvent: {}
+[1.711627] (result_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[1.740329] (result_publisher) StdoutLine: {'line': b'creating ../../build/result_publisher/result_publisher.egg-info\n'}
+[1.740601] (result_publisher) StdoutLine: {'line': b'writing ../../build/result_publisher/result_publisher.egg-info/PKG-INFO\n'}
+[1.741264] (result_publisher) StdoutLine: {'line': b'writing dependency_links to ../../build/result_publisher/result_publisher.egg-info/dependency_links.txt\n'}
+[1.741549] (result_publisher) StdoutLine: {'line': b'writing entry points to ../../build/result_publisher/result_publisher.egg-info/entry_points.txt\n'}
+[1.741850] (result_publisher) StdoutLine: {'line': b'writing requirements to ../../build/result_publisher/result_publisher.egg-info/requires.txt\n'}
+[1.742138] (result_publisher) StdoutLine: {'line': b'writing top-level names to ../../build/result_publisher/result_publisher.egg-info/top_level.txt\n'}
+[1.742414] (result_publisher) StdoutLine: {'line': b"writing manifest file '../../build/result_publisher/result_publisher.egg-info/SOURCES.txt'\n"}
+[1.806075] (result_publisher) StdoutLine: {'line': b"reading manifest file '../../build/result_publisher/result_publisher.egg-info/SOURCES.txt'\n"}
+[1.806265] (-) TimerEvent: {}
+[1.808545] (result_publisher) StdoutLine: {'line': b"writing manifest file '../../build/result_publisher/result_publisher.egg-info/SOURCES.txt'\n"}
+[1.812242] (result_publisher) StdoutLine: {'line': b'running build\n'}
+[1.812410] (result_publisher) StdoutLine: {'line': b'running build_py\n'}
+[1.812512] (result_publisher) StdoutLine: {'line': b'creating /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/build/result_publisher/build/lib/result_publisher\n'}
+[1.812673] (result_publisher) StdoutLine: {'line': b'copying result_publisher/__init__.py -> /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/build/result_publisher/build/lib/result_publisher\n'}
+[1.812913] (result_publisher) StdoutLine: {'line': b'copying result_publisher/publisher_node.py -> /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/build/result_publisher/build/lib/result_publisher\n'}
+[1.813171] (result_publisher) StdoutLine: {'line': b'running install\n'}
+[1.817749] (result_publisher) StdoutLine: {'line': b'running install_lib\n'}
+[1.847271] (result_publisher) StdoutLine: {'line': b'creating /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/install/result_publisher/lib/python3.10/site-packages/result_publisher\n'}
+[1.847712] (result_publisher) StdoutLine: {'line': b'copying /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/build/result_publisher/build/lib/result_publisher/__init__.py -> /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/install/result_publisher/lib/python3.10/site-packages/result_publisher\n'}
+[1.847867] (result_publisher) StdoutLine: {'line': b'copying /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/build/result_publisher/build/lib/result_publisher/publisher_node.py -> /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/install/result_publisher/lib/python3.10/site-packages/result_publisher\n'}
+[1.848616] (result_publisher) StdoutLine: {'line': b'byte-compiling /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/install/result_publisher/lib/python3.10/site-packages/result_publisher/__init__.py to __init__.cpython-310.pyc\n'}
+[1.848996] (result_publisher) StdoutLine: {'line': b'byte-compiling /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/install/result_publisher/lib/python3.10/site-packages/result_publisher/publisher_node.py to publisher_node.cpython-310.pyc\n'}
+[1.850152] (result_publisher) StdoutLine: {'line': b'running install_data\n'}
+[1.850490] (result_publisher) StdoutLine: {'line': b'creating /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/install/result_publisher/share/ament_index/resource_index/packages\n'}
+[1.850658] (result_publisher) StdoutLine: {'line': b'copying resource/result_publisher -> /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/install/result_publisher/share/ament_index/resource_index/packages\n'}
+[1.850872] (result_publisher) StdoutLine: {'line': b'copying package.xml -> /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/install/result_publisher/share/result_publisher\n'}
+[1.851029] (result_publisher) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.882073] (result_publisher) StdoutLine: {'line': b'Copying ../../build/result_publisher/result_publisher.egg-info to /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/install/result_publisher/lib/python3.10/site-packages/result_publisher-0.0.0-py3.10.egg-info\n'}
+[1.883636] (result_subscriber) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.883862] (result_publisher) StdoutLine: {'line': b'running install_scripts\n'}
+[1.906372] (-) TimerEvent: {}
+[1.945947] (result_publisher) StdoutLine: {'line': b'Installing result_publisher script to /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/install/result_publisher/lib/result_publisher\n'}
+[1.946416] (result_publisher) StdoutLine: {'line': b"writing list of installed files to '/home/hkit/Downloads/test/mediapipe_only/Ros2_ws/build/result_publisher/install.log'\n"}
+[2.002415] (result_publisher) CommandEnded: {'returncode': 0}
+[2.006469] (-) TimerEvent: {}
+[2.020625] (result_publisher) JobEnded: {'identifier': 'result_publisher', 'rc': 0}
+[2.075249] (result_subscriber) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.106759] (-) TimerEvent: {}
+[2.178216] (result_subscriber) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.190548] (result_subscriber) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.206482] (result_subscriber) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.206865] (-) TimerEvent: {}
+[2.246943] (result_subscriber) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.279622] (result_subscriber) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.307063] (-) TimerEvent: {}
+[2.378992] (result_subscriber) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.385784] (result_subscriber) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.407361] (-) TimerEvent: {}
+[2.508127] (-) TimerEvent: {}
+[2.595954] (result_subscriber) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.608303] (-) TimerEvent: {}
+[2.636381] (result_subscriber) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.699382] (result_subscriber) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.708406] (-) TimerEvent: {}
+[2.720046] (result_subscriber) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.808558] (-) TimerEvent: {}
+[2.874939] (result_subscriber) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.876569] (result_subscriber) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.908680] (-) TimerEvent: {}
+[3.009047] (-) TimerEvent: {}
+[3.023049] (result_subscriber) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.024501] (result_subscriber) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.109142] (-) TimerEvent: {}
+[3.122181] (result_subscriber) StdoutLine: {'line': b'-- Found nlohmann_json: /usr/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.10.5") \n'}
+[3.126055] (result_subscriber) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.209284] (-) TimerEvent: {}
+[3.259716] (result_subscriber) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.259966] (result_subscriber) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.260049] (result_subscriber) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.260992] (result_subscriber) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.262324] (result_subscriber) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.262412] (result_subscriber) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.263118] (result_subscriber) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.267048] (result_subscriber) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.280479] (result_subscriber) StdoutLine: {'line': b'-- Generating done\n'}
+[3.284114] (result_subscriber) StdoutLine: {'line': b'-- Build files have been written to: /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/build/result_subscriber\n'}
+[3.300463] (result_subscriber) CommandEnded: {'returncode': 0}
+[3.302026] (result_subscriber) JobProgress: {'identifier': 'result_subscriber', 'progress': 'build'}
+[3.303424] (result_subscriber) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hkit/Downloads/test/mediapipe_only/Ros2_ws/build/result_subscriber', '--', '-j8', '-l8'], 'cwd': '/home/hkit/Downloads/test/mediapipe_only/Ros2_ws/build/result_subscriber', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'hkit'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/tmp/.mount_Cursorl3oo7r/usr/share/cursor/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hkit/ros2_ws/install/ros_study_msgs/lib:/home/hkit/ros2_ws/install/hangman_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_Cursorl3oo7r/usr/lib/:/tmp/.mount_Cursorl3oo7r/usr/lib32/:/tmp/.mount_Cursorl3oo7r/usr/lib64/:/tmp/.mount_Cursorl3oo7r/lib/:/tmp/.mount_Cursorl3oo7r/lib/i386-linux-gnu/:/tmp/.mount_Cursorl3oo7r/lib/x86_64-linux-gnu/:/tmp/.mount_Cursorl3oo7r/lib/aarch64-linux-gnu/:/tmp/.mount_Cursorl3oo7r/lib32/:/tmp/.mount_Cursorl3oo7r/lib64/:'), ('HOME', '/home/hkit'), ('CHROME_DESKTOP', 'cursor.desktop'), ('APPDIR', '/tmp/.mount_Cursorl3oo7r'), ('OLDPWD', '/home/hkit/Downloads/test/mediapipe_only'), ('DISABLE_AUTO_UPDATE', 'true'), ('TERM_PROGRAM_VERSION', '1.2.2'), ('DESKTOP_SESSION', 'ubuntu'), ('PERLLIB', '/tmp/.mount_Cursorl3oo7r/usr/share/perl5/:/tmp/.mount_Cursorl3oo7r/usr/lib/perl5/:'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'head -n 10000 | cat'), ('VSCODE_GIT_ASKPASS_MAIN', '/tmp/.mount_Cursorl3oo7r/usr/share/cursor/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/tmp/.mount_Cursorl3oo7r/usr/share/cursor/cursor'), ('MANAGERPID', '1551'), ('npm_config_yes', 'true'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1693'), ('BUNDLED_DEBUGPY_PATH', '/home/hkit/.cursor/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8ebd92d23c39d624cdb63808687d9095'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '659444'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hkit/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hkit'), ('OWD', '/home/hkit/Downloads'), ('JOURNAL_STREAM', '8:12545'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hkit'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('COMPOSER_NO_INTERACTION', '1'), ('PERPLEXITY_API_KEY', 'your-api-key-here'), ('PATH', '/home/hkit/.local/bin:/home/hkit/.local/bin:/opt/ros/humble/bin:/tmp/.mount_Cursorl3oo7r/usr/bin/:/tmp/.mount_Cursorl3oo7r/usr/sbin/:/tmp/.mount_Cursorl3oo7r/usr/games/:/tmp/.mount_Cursorl3oo7r/bin/:/tmp/.mount_Cursorl3oo7r/sbin/:/home/hkit/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hkit/.cursor/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/hkit-To-be-filled-by-O-E-M:@/tmp/.ICE-unix/1693,unix/hkit-To-be-filled-by-O-E-M:/tmp/.ICE-unix/1693'), ('INVOCATION_ID', 'e08ac2d7b5ce405a835081590d328aff'), ('PAPERSIZE', 'a4'), ('APPIMAGE', '/home/hkit/Downloads/Cursor-1.2.2-x86_64.AppImage.zs-old'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/hkit/.cursor/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e63379b47a09148c.txt'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5DW192'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f11f2e3a12.sock'), ('TERM_PROGRAM', 'vscode'), ('CURSOR_TRACE_ID', '835c4a8dba9e4e36a92a7a73d597230f'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/tmp/.mount_Cursorl3oo7r/usr/share/glib-2.0/schemas/:'), ('AMENT_PREFIX_PATH', '/home/hkit/ros2_ws/install/ros_study_py:/home/hkit/ros2_ws/install/ros_study_cpp:/home/hkit/ros2_ws/install/ex_calculator_py:/home/hkit/ros2_ws/install/ex_calculator_cpp:/home/hkit/ros2_ws/install/ros_study_msgs:/home/hkit/ros2_ws/install/opencv_py:/home/hkit/ros2_ws/install/hangman_game_cpp:/home/hkit/ros2_ws/install/hangman_game:/home/hkit/ros2_ws/install/hangman_interface:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('ARGV0', '/home/hkit/Downloads/Cursor-1.2.2-x86_64.AppImage.zs-old'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hkit/Downloads/test/mediapipe_only/Ros2_ws/build/result_subscriber'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8ebd92d23c39d624cdb63808687d9095'), ('XDG_DATA_DIRS', '/tmp/.mount_Cursorl3oo7r/usr/share/:/usr/local/share:/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hkit/ros2_ws/install/ros_study_py/lib/python3.10/site-packages:/home/hkit/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages:/home/hkit/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages:/home/hkit/ros2_ws/install/opencv_py/lib/python3.10/site-packages:/home/hkit/ros2_ws/install/hangman_game/lib/python3.10/site-packages:/home/hkit/ros2_ws/install/hangman_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('QT_PLUGIN_PATH', '/tmp/.mount_Cursorl3oo7r/usr/lib/qt4/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib/i386-linux-gnu/qt4/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib/x86_64-linux-gnu/qt4/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib/aarch64-linux-gnu/qt4/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib32/qt4/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib64/qt4/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib/qt5/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib/i386-linux-gnu/qt5/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib/x86_64-linux-gnu/qt5/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib/aarch64-linux-gnu/qt5/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib32/qt5/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib64/qt5/plugins/:'), ('COLCON', '1'), ('PIP_NO_INPUT', 'true'), ('CMAKE_PREFIX_PATH', '/home/hkit/ros2_ws/install/ros_study_cpp:/home/hkit/ros2_ws/install/ex_calculator_cpp:/home/hkit/ros2_ws/install/ros_study_msgs:/home/hkit/ros2_ws/install/hangman_game_cpp:/home/hkit/ros2_ws/install/hangman_interface:/home/hkit/ros2_ws/install/ros_study_py:/home/hkit/ros2_ws/install/ex_calculator_py:/home/hkit/ros2_ws/install/opencv_py:/home/hkit/ros2_ws/install/hangman_game:/opt/ros/humble')]), 'shell': False}
+[3.309488] (-) TimerEvent: {}
+[3.409868] (-) TimerEvent: {}
+[3.425248] (result_subscriber) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/result_subscriber_node.dir/src/result_subscriber_node.cpp.o\x1b[0m\n'}
+[3.509990] (-) TimerEvent: {}
+[3.610253] (-) TimerEvent: {}
+[3.710547] (-) TimerEvent: {}
+[3.810921] (-) TimerEvent: {}
+[3.911232] (-) TimerEvent: {}
+[4.011551] (-) TimerEvent: {}
+[4.111893] (-) TimerEvent: {}
+[4.212182] (-) TimerEvent: {}
+[4.312486] (-) TimerEvent: {}
+[4.412926] (-) TimerEvent: {}
+[4.513550] (-) TimerEvent: {}
+[4.613878] (-) TimerEvent: {}
+[4.714179] (-) TimerEvent: {}
+[4.814470] (-) TimerEvent: {}
+[4.914788] (-) TimerEvent: {}
+[5.015072] (-) TimerEvent: {}
+[5.115361] (-) TimerEvent: {}
+[5.215673] (-) TimerEvent: {}
+[5.315971] (-) TimerEvent: {}
+[5.416455] (-) TimerEvent: {}
+[5.517192] (-) TimerEvent: {}
+[5.617995] (-) TimerEvent: {}
+[5.718821] (-) TimerEvent: {}
+[5.819483] (-) TimerEvent: {}
+[5.920504] (-) TimerEvent: {}
+[6.021700] (-) TimerEvent: {}
+[6.122474] (-) TimerEvent: {}
+[6.222867] (-) TimerEvent: {}
+[6.323193] (-) TimerEvent: {}
+[6.423808] (-) TimerEvent: {}
+[6.524708] (-) TimerEvent: {}
+[6.625285] (-) TimerEvent: {}
+[6.725798] (-) TimerEvent: {}
+[6.826317] (-) TimerEvent: {}
+[6.926871] (-) TimerEvent: {}
+[7.027477] (-) TimerEvent: {}
+[7.127762] (-) TimerEvent: {}
+[7.228056] (-) TimerEvent: {}
+[7.328352] (-) TimerEvent: {}
+[7.428750] (-) TimerEvent: {}
+[7.529069] (-) TimerEvent: {}
+[7.629373] (-) TimerEvent: {}
+[7.729707] (-) TimerEvent: {}
+[7.830090] (-) TimerEvent: {}
+[7.930413] (-) TimerEvent: {}
+[8.030875] (-) TimerEvent: {}
+[8.131463] (-) TimerEvent: {}
+[8.231853] (-) TimerEvent: {}
+[8.332182] (-) TimerEvent: {}
+[8.432470] (-) TimerEvent: {}
+[8.532790] (-) TimerEvent: {}
+[8.633071] (-) TimerEvent: {}
+[8.733381] (-) TimerEvent: {}
+[8.833788] (-) TimerEvent: {}
+[8.934426] (-) TimerEvent: {}
+[9.035338] (-) TimerEvent: {}
+[9.136242] (-) TimerEvent: {}
+[9.237107] (-) TimerEvent: {}
+[9.338075] (-) TimerEvent: {}
+[9.439035] (-) TimerEvent: {}
+[9.539780] (-) TimerEvent: {}
+[9.640295] (-) TimerEvent: {}
+[9.740649] (-) TimerEvent: {}
+[9.841492] (-) TimerEvent: {}
+[9.941888] (-) TimerEvent: {}
+[10.042174] (-) TimerEvent: {}
+[10.142489] (-) TimerEvent: {}
+[10.242859] (-) TimerEvent: {}
+[10.343180] (-) TimerEvent: {}
+[10.443462] (-) TimerEvent: {}
+[10.543742] (-) TimerEvent: {}
+[10.644007] (-) TimerEvent: {}
+[10.744298] (-) TimerEvent: {}
+[10.844551] (-) TimerEvent: {}
+[10.944882] (-) TimerEvent: {}
+[11.045243] (-) TimerEvent: {}
+[11.145530] (-) TimerEvent: {}
+[11.246027] (-) TimerEvent: {}
+[11.346438] (-) TimerEvent: {}
+[11.446989] (-) TimerEvent: {}
+[11.547286] (-) TimerEvent: {}
+[11.647680] (-) TimerEvent: {}
+[11.748200] (-) TimerEvent: {}
+[11.848473] (-) TimerEvent: {}
+[11.948814] (-) TimerEvent: {}
+[12.049137] (-) TimerEvent: {}
+[12.149484] (-) TimerEvent: {}
+[12.249806] (-) TimerEvent: {}
+[12.350139] (-) TimerEvent: {}
+[12.450450] (-) TimerEvent: {}
+[12.550747] (-) TimerEvent: {}
+[12.651050] (-) TimerEvent: {}
+[12.751604] (-) TimerEvent: {}
+[12.852237] (-) TimerEvent: {}
+[12.952975] (-) TimerEvent: {}
+[13.053504] (-) TimerEvent: {}
+[13.154266] (-) TimerEvent: {}
+[13.255157] (-) TimerEvent: {}
+[13.356032] (-) TimerEvent: {}
+[13.456702] (-) TimerEvent: {}
+[13.557235] (-) TimerEvent: {}
+[13.657674] (-) TimerEvent: {}
+[13.758558] (-) TimerEvent: {}
+[13.859190] (-) TimerEvent: {}
+[13.959770] (-) TimerEvent: {}
+[14.060254] (-) TimerEvent: {}
+[14.160628] (-) TimerEvent: {}
+[14.260955] (-) TimerEvent: {}
+[14.361307] (-) TimerEvent: {}
+[14.461579] (-) TimerEvent: {}
+[14.561857] (-) TimerEvent: {}
+[14.662183] (-) TimerEvent: {}
+[14.762447] (-) TimerEvent: {}
+[14.862711] (-) TimerEvent: {}
+[14.963045] (-) TimerEvent: {}
+[15.063400] (-) TimerEvent: {}
+[15.163926] (-) TimerEvent: {}
+[15.264556] (-) TimerEvent: {}
+[15.364854] (-) TimerEvent: {}
+[15.465354] (-) TimerEvent: {}
+[15.565651] (-) TimerEvent: {}
+[15.665940] (-) TimerEvent: {}
+[15.766319] (-) TimerEvent: {}
+[15.866611] (-) TimerEvent: {}
+[15.966945] (-) TimerEvent: {}
+[16.067272] (-) TimerEvent: {}
+[16.167610] (-) TimerEvent: {}
+[16.268169] (-) TimerEvent: {}
+[16.344065] (result_subscriber) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable result_subscriber_node\x1b[0m\n'}
+[16.368330] (-) TimerEvent: {}
+[16.469220] (-) TimerEvent: {}
+[16.570396] (-) TimerEvent: {}
+[16.671491] (-) TimerEvent: {}
+[16.772786] (-) TimerEvent: {}
+[16.873154] (-) TimerEvent: {}
+[16.973568] (-) TimerEvent: {}
+[17.073969] (-) TimerEvent: {}
+[17.102447] (result_subscriber) StdoutLine: {'line': b'[100%] Built target result_subscriber_node\n'}
+[17.125679] (result_subscriber) CommandEnded: {'returncode': 0}
+[17.126543] (result_subscriber) JobProgress: {'identifier': 'result_subscriber', 'progress': 'install'}
+[17.145891] (result_subscriber) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hkit/Downloads/test/mediapipe_only/Ros2_ws/build/result_subscriber'], 'cwd': '/home/hkit/Downloads/test/mediapipe_only/Ros2_ws/build/result_subscriber', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'hkit'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/tmp/.mount_Cursorl3oo7r/usr/share/cursor/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hkit/ros2_ws/install/ros_study_msgs/lib:/home/hkit/ros2_ws/install/hangman_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_Cursorl3oo7r/usr/lib/:/tmp/.mount_Cursorl3oo7r/usr/lib32/:/tmp/.mount_Cursorl3oo7r/usr/lib64/:/tmp/.mount_Cursorl3oo7r/lib/:/tmp/.mount_Cursorl3oo7r/lib/i386-linux-gnu/:/tmp/.mount_Cursorl3oo7r/lib/x86_64-linux-gnu/:/tmp/.mount_Cursorl3oo7r/lib/aarch64-linux-gnu/:/tmp/.mount_Cursorl3oo7r/lib32/:/tmp/.mount_Cursorl3oo7r/lib64/:'), ('HOME', '/home/hkit'), ('CHROME_DESKTOP', 'cursor.desktop'), ('APPDIR', '/tmp/.mount_Cursorl3oo7r'), ('OLDPWD', '/home/hkit/Downloads/test/mediapipe_only'), ('DISABLE_AUTO_UPDATE', 'true'), ('TERM_PROGRAM_VERSION', '1.2.2'), ('DESKTOP_SESSION', 'ubuntu'), ('PERLLIB', '/tmp/.mount_Cursorl3oo7r/usr/share/perl5/:/tmp/.mount_Cursorl3oo7r/usr/lib/perl5/:'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'head -n 10000 | cat'), ('VSCODE_GIT_ASKPASS_MAIN', '/tmp/.mount_Cursorl3oo7r/usr/share/cursor/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/tmp/.mount_Cursorl3oo7r/usr/share/cursor/cursor'), ('MANAGERPID', '1551'), ('npm_config_yes', 'true'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1693'), ('BUNDLED_DEBUGPY_PATH', '/home/hkit/.cursor/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8ebd92d23c39d624cdb63808687d9095'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '659444'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hkit/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hkit'), ('OWD', '/home/hkit/Downloads'), ('JOURNAL_STREAM', '8:12545'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hkit'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('COMPOSER_NO_INTERACTION', '1'), ('PERPLEXITY_API_KEY', 'your-api-key-here'), ('PATH', '/home/hkit/.local/bin:/home/hkit/.local/bin:/opt/ros/humble/bin:/tmp/.mount_Cursorl3oo7r/usr/bin/:/tmp/.mount_Cursorl3oo7r/usr/sbin/:/tmp/.mount_Cursorl3oo7r/usr/games/:/tmp/.mount_Cursorl3oo7r/bin/:/tmp/.mount_Cursorl3oo7r/sbin/:/home/hkit/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hkit/.cursor/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/hkit-To-be-filled-by-O-E-M:@/tmp/.ICE-unix/1693,unix/hkit-To-be-filled-by-O-E-M:/tmp/.ICE-unix/1693'), ('INVOCATION_ID', 'e08ac2d7b5ce405a835081590d328aff'), ('PAPERSIZE', 'a4'), ('APPIMAGE', '/home/hkit/Downloads/Cursor-1.2.2-x86_64.AppImage.zs-old'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/hkit/.cursor/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e63379b47a09148c.txt'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5DW192'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f11f2e3a12.sock'), ('TERM_PROGRAM', 'vscode'), ('CURSOR_TRACE_ID', '835c4a8dba9e4e36a92a7a73d597230f'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/tmp/.mount_Cursorl3oo7r/usr/share/glib-2.0/schemas/:'), ('AMENT_PREFIX_PATH', '/home/hkit/ros2_ws/install/ros_study_py:/home/hkit/ros2_ws/install/ros_study_cpp:/home/hkit/ros2_ws/install/ex_calculator_py:/home/hkit/ros2_ws/install/ex_calculator_cpp:/home/hkit/ros2_ws/install/ros_study_msgs:/home/hkit/ros2_ws/install/opencv_py:/home/hkit/ros2_ws/install/hangman_game_cpp:/home/hkit/ros2_ws/install/hangman_game:/home/hkit/ros2_ws/install/hangman_interface:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('ARGV0', '/home/hkit/Downloads/Cursor-1.2.2-x86_64.AppImage.zs-old'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hkit/Downloads/test/mediapipe_only/Ros2_ws/build/result_subscriber'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8ebd92d23c39d624cdb63808687d9095'), ('XDG_DATA_DIRS', '/tmp/.mount_Cursorl3oo7r/usr/share/:/usr/local/share:/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hkit/ros2_ws/install/ros_study_py/lib/python3.10/site-packages:/home/hkit/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages:/home/hkit/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages:/home/hkit/ros2_ws/install/opencv_py/lib/python3.10/site-packages:/home/hkit/ros2_ws/install/hangman_game/lib/python3.10/site-packages:/home/hkit/ros2_ws/install/hangman_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('QT_PLUGIN_PATH', '/tmp/.mount_Cursorl3oo7r/usr/lib/qt4/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib/i386-linux-gnu/qt4/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib/x86_64-linux-gnu/qt4/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib/aarch64-linux-gnu/qt4/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib32/qt4/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib64/qt4/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib/qt5/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib/i386-linux-gnu/qt5/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib/x86_64-linux-gnu/qt5/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib/aarch64-linux-gnu/qt5/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib32/qt5/plugins/:/tmp/.mount_Cursorl3oo7r/usr/lib64/qt5/plugins/:'), ('COLCON', '1'), ('PIP_NO_INPUT', 'true'), ('CMAKE_PREFIX_PATH', '/home/hkit/ros2_ws/install/ros_study_cpp:/home/hkit/ros2_ws/install/ex_calculator_cpp:/home/hkit/ros2_ws/install/ros_study_msgs:/home/hkit/ros2_ws/install/hangman_game_cpp:/home/hkit/ros2_ws/install/hangman_interface:/home/hkit/ros2_ws/install/ros_study_py:/home/hkit/ros2_ws/install/ex_calculator_py:/home/hkit/ros2_ws/install/opencv_py:/home/hkit/ros2_ws/install/hangman_game:/opt/ros/humble')]), 'shell': False}
+[17.162739] (result_subscriber) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.162945] (result_subscriber) StdoutLine: {'line': b'-- Installing: /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/install/result_subscriber/share/ament_index/resource_index/package_run_dependencies/result_subscriber\n'}
+[17.163203] (result_subscriber) StdoutLine: {'line': b'-- Installing: /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/install/result_subscriber/share/ament_index/resource_index/parent_prefix_path/result_subscriber\n'}
+[17.163418] (result_subscriber) StdoutLine: {'line': b'-- Installing: /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/install/result_subscriber/share/result_subscriber/environment/ament_prefix_path.sh\n'}
+[17.163556] (result_subscriber) StdoutLine: {'line': b'-- Installing: /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/install/result_subscriber/share/result_subscriber/environment/ament_prefix_path.dsv\n'}
+[17.163914] (result_subscriber) StdoutLine: {'line': b'-- Installing: /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/install/result_subscriber/share/result_subscriber/environment/path.sh\n'}
+[17.164159] (result_subscriber) StdoutLine: {'line': b'-- Installing: /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/install/result_subscriber/share/result_subscriber/environment/path.dsv\n'}
+[17.164243] (result_subscriber) StdoutLine: {'line': b'-- Installing: /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/install/result_subscriber/share/result_subscriber/local_setup.bash\n'}
+[17.164333] (result_subscriber) StdoutLine: {'line': b'-- Installing: /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/install/result_subscriber/share/result_subscriber/local_setup.sh\n'}
+[17.164537] (result_subscriber) StdoutLine: {'line': b'-- Installing: /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/install/result_subscriber/share/result_subscriber/local_setup.zsh\n'}
+[17.164794] (result_subscriber) StdoutLine: {'line': b'-- Installing: /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/install/result_subscriber/share/result_subscriber/local_setup.dsv\n'}
+[17.164981] (result_subscriber) StdoutLine: {'line': b'-- Installing: /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/install/result_subscriber/share/result_subscriber/package.dsv\n'}
+[17.165276] (result_subscriber) StdoutLine: {'line': b'-- Installing: /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/install/result_subscriber/share/ament_index/resource_index/packages/result_subscriber\n'}
+[17.165537] (result_subscriber) StdoutLine: {'line': b'-- Installing: /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/install/result_subscriber/share/result_subscriber/cmake/result_subscriberConfig.cmake\n'}
+[17.165654] (result_subscriber) StdoutLine: {'line': b'-- Installing: /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/install/result_subscriber/share/result_subscriber/cmake/result_subscriberConfig-version.cmake\n'}
+[17.165866] (result_subscriber) StdoutLine: {'line': b'-- Installing: /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/install/result_subscriber/share/result_subscriber/package.xml\n'}
+[17.166096] (result_subscriber) StdoutLine: {'line': b'-- Installing: /home/hkit/Downloads/test/mediapipe_only/Ros2_ws/install/result_subscriber/lib/result_subscriber/result_subscriber_node\n'}
+[17.172699] (result_subscriber) StdoutLine: {'line': b'-- Set runtime path of "/home/hkit/Downloads/test/mediapipe_only/Ros2_ws/install/result_subscriber/lib/result_subscriber/result_subscriber_node" to ""\n'}
+[17.174088] (-) TimerEvent: {}
+[17.176587] (result_subscriber) CommandEnded: {'returncode': 0}
+[17.195215] (result_subscriber) JobEnded: {'identifier': 'result_subscriber', 'rc': 0}
+[17.196056] (-) EventReactorShutdown: {}

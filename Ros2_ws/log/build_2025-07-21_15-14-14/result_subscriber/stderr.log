@@ -1,0 +1,31 @@
+[01m[K/home/hkit/Downloads/test/mediapipe_only/Ros2_ws/src/result_subscriber/src/result_subscriber_node.cpp:9:26:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+    9 |         super().__init__([01;35m[K'image_subscriber'[m[K)
+      |                          [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hkit/Downloads/test/mediapipe_only/Ros2_ws/src/result_subscriber/src/result_subscriber_node.cpp:12:13:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   12 |             [01;35m[K'gui_image'[m[K,
+      |             [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/hkit/Downloads/test/mediapipe_only/Ros2_ws/src/result_subscriber/src/result_subscriber_node.cpp:18:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #sensor_msgs
+   18 |         # [01;31m[Ksensor_msgs[m[K/Image 타입만 처리
+      |           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/hkit/Downloads/test/mediapipe_only/Ros2_ws/src/result_subscriber/src/result_subscriber_node.cpp:20:36:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   20 |             self.get_logger().warn([01;35m[K'이미지 메시지가 아닙니다. 무시합니다.'[m[K)
+      |                                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hkit/Downloads/test/mediapipe_only/Ros2_ws/src/result_subscriber/src/result_subscriber_node.cpp:23:70:[m[K [01;35m[Kwarning: [m[Kmulti-character character constant [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmultichar-Wmultichar]8;;[m[K]
+   23 |             cv_img = self.bridge.imgmsg_to_cv2(msg, desired_encoding=[01;35m[K'bgr8'[m[K)
+      |                                                                      [01;35m[K^~~~~~[m[K
+[01m[K/home/hkit/Downloads/test/mediapipe_only/Ros2_ws/src/result_subscriber/src/result_subscriber_node.cpp:24:24:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   24 |             cv2.imshow([01;35m[K'Subscribed GUI Image'[m[K, cv_img)
+      |                        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hkit/Downloads/test/mediapipe_only/Ros2_ws/src/result_subscriber/src/result_subscriber_node.cpp:27:37:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   27 |             self.get_logger().error([01;35m[K'이미지 변환 오류: {e}'[m[K)
+      |                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hkit/Downloads/test/mediapipe_only/Ros2_ws/src/result_subscriber/src/result_subscriber_node.cpp:40:16:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   40 | if __name__ == [01;35m[K'__main__'[m[K:
+      |                [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/hkit/Downloads/test/mediapipe_only/Ros2_ws/src/result_subscriber/src/result_subscriber_node.cpp:1:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kimport[m[K’ does not name a type
+    1 | [01;31m[Kimport[m[K rclpy
+      | [01;31m[K^~~~~~[m[K
+[01m[K/home/hkit/Downloads/test/mediapipe_only/Ros2_ws/src/result_subscriber/src/result_subscriber_node.cpp:1:1:[m[K [01;36m[Knote: [m[KC++20 ‘[01m[Kimport[m[K’ only available with ‘[01m[K-fmodules-ts[m[K’
+gmake[2]: *** [CMakeFiles/result_subscriber_node.dir/build.make:76: CMakeFiles/result_subscriber_node.dir/src/result_subscriber_node.cpp.o] 오류 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/result_subscriber_node.dir/all] 오류 2
+gmake: *** [Makefile:146: all] 오류 2
