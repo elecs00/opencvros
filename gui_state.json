@@ -11,7 +11,7 @@
     "source": "0",
     "weights": "/home/hkit/Downloads/test/mediapipe_only/weights/last.pt",
     "enable_ros2_sending": true,
-    "is_set_mediapipe_front_face_mode": true,
+    "is_set_mediapipe_front_face_mode": false,
     "is_calibration_mode": false,
     "video_rotation": 0,
     "aspect_ratio": 0,

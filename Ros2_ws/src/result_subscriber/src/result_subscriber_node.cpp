@@ -13,7 +13,7 @@ public:
             "gui_image", 10,
             std::bind(&ImageSubscriber::topic_callback, this, std::placeholders::_1)
         );
-    }
+                        }
 
 private:
     void topic_callback(const sensor_msgs::msg::Image::SharedPtr msg)

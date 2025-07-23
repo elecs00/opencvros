@@ -20,7 +20,6 @@ import cv2
 import time
 import torch
 import argparse
-import socket_sender
 
 try:
     import rclpy
@@ -1020,9 +1019,6 @@ class MainApp(QWidget):
         if not self.slider_position_user_changing:
             self.slider_position.setValue(progress_percent)
             self.label_position_value.setText(f"{progress_percent}%")
-        # ROS2로 이미지 publish
-        if self.image_publisher:
-            self.image_publisher.publish_image(cv_img)
 
     def convert_cv_qt(self, cv_img):
         rgb_image = cv2.cvtColor(cv_img, cv2.COLOR_BGR2RGB)
