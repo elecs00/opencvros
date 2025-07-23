@@ -1,0 +1,8 @@
+PyQt5==5.15.9
+numpy==1.26.4
+scipy==1.15.3
+Pillow==11.2.1
+opencv-python==4.11.0.86
+torch==2.7.1
+rclpy==3.3.16
+mediapipe==0.10.21

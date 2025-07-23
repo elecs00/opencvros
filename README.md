@@ -34,7 +34,7 @@ This project utilizes Mediapipe for analysis and integrates with ROS2 for data p
    ```bash
    pip install -r requirements.txt
    ```
-   (Note: A `requirements.txt` file is not provided in the repository. You will need to create one manually based on the Python Package Versions listed below.)
+   
 
 4. **Install ROS2 (Humble recommended)**:
    Follow the official ROS2 Humble installation guide for your specific Linux distribution:
