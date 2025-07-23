@@ -1,0 +1,11 @@
+# Build artifacts
+build/
+install/
+log/
+__pycache__/
+
+# ROS2 build artifacts
+Ros2_ws/build/
+Ros2_ws/install/
+Ros2_ws/log/
+Ros2_ws/__pycache__/
