@@ -41,10 +41,20 @@ This project utilizes Mediapipe for analysis and integrates with ROS2 for data p
    [https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html)
 
 5. **Build ROS2 workspace**:
+   Navigate to the `Ros2_ws` directory:
    ```bash
    cd Ros2_ws
+   ```
+   Install ROS2 package dependencies (run this once, or whenever new dependencies are added):
+   ```bash
    rosdep install -i --from-path src --rosdistro humble -y
+   ```
+   Build the ROS2 packages in the workspace:
+   ```bash
    colcon build
+   ```
+   Source the ROS2 setup file to make the installed packages available in your environment:
+   ```bash
    source install/setup.bash
    ```
 
