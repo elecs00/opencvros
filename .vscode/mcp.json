@@ -1,0 +1,22 @@
+{
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "perplexity-key",
+      "description": "Perplexity API Key",
+      "password": true,
+      "default": "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"
+    }
+  ],
+  "servers": {
+    "Perplexity": {
+      "type": "stdio",
+      "command": "npm",
+      "args": ["start"],
+      "env": {
+        "PERPLEXITY_API_KEY": "pplx-..."   // 본인의 키
+      },
+      "cwd": "/home/hkit/perplexity-mcp-server"
+    }
+  }
+}

@@ -1,8 +1,0 @@
-[ 50%] [32mBuilding CXX object CMakeFiles/result_subscriber_node.dir/src/result_subscriber_node.cpp.o[0m
-[01m[K/home/hkit/Downloads/test/mediapipe_only/Ros2_ws/src/result_subscriber/src/result_subscriber_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/image.hpp: 그런 파일이나 디렉터리가 없습니다
-    2 | #include [01;31m[K<sensor_msgs/msg/image.hpp>[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/result_subscriber_node.dir/build.make:76: CMakeFiles/result_subscriber_node.dir/src/result_subscriber_node.cpp.o] 오류 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/result_subscriber_node.dir/all] 오류 2
-gmake: *** [Makefile:146: all] 오류 2
