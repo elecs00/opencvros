@@ -1247,10 +1247,11 @@ if __name__ == "__main__":
     import os
     import sys
     
-    # 환경 변수 설정으로 경고 숨기기
-    os.environ['GDK_SYNCHRONIZE'] = '0'
-    os.environ['GTK_DEBUG'] = '0'
-    os.environ['G_MESSAGES_DEBUG'] = 'none'
+    # [Fix] Qt platform plugin conflict between PyQt5 and opencv-python.
+    # This ensures that the application uses the Qt plugins bundled with PyQt5.
+    from PyQt5.QtCore import QLibraryInfo
+    os.environ["QT_QPA_PLATFORM_PLUGIN_PATH"] = QLibraryInfo.location(QLibraryInfo.PluginsPath)
+
     
     app = QApplication(sys.argv)
     main_app = MainApp()
