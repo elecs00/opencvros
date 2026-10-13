@@ -9,3 +9,7 @@ Ros2_ws/build/
 Ros2_ws/install/
 Ros2_ws/log/
 Ros2_ws/__pycache__/
+
+# Editor / local secrets
+.vscode/
+.env
